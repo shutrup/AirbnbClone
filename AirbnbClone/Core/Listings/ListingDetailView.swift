@@ -186,6 +186,14 @@ extension ListingDetailView {
                     Text("500$")
                         .font(.subheadline)
                         .fontWeight(.semibold)
+                    
+                    Text("Total before taxes")
+                        .font(.footnote)
+                    
+                    Text("Oct 15 - 20")
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                        .underline()
                 }
                 
                 Spacer()
